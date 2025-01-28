@@ -39,12 +39,12 @@
 
                <div class="radio-wrapper-22">
                  <label id="pepole" class="radio-wrapper" for="example-22">
-                   <input type="radio" class="radio-input" name="اللجنة المُختارة" id="example-22" value="لجنة السفراء"/>
+                   <input type="radio" class="radio-input" name="اللجنة المُختارة" id="example-22" value="لجنة السفراء والبصريات والحسيات"/>
                    <span class="radio-tile">
                      <span class="radio-icon">
                        <i class="fa-solid fa-users"></i>
                      </span>
-                     <span class="radio-label">لجنة السفراء</span>
+                     <span class="radio-label">لجنة السفراء والبصريات والحسيات</span>
                    </span>
                  </label>
 
@@ -54,7 +54,7 @@
                      <span class="radio-icon">
                        <i class="fa-solid fa-lightbulb"></i> <i class="fa-solid fa-pen"></i>
                      </span>
-                     <span class="radio-label">لجنة التأليف</span>
+                     <span class="radio-label">لجنة التوثيق</span>
                    </span>
                  </label>
 
@@ -74,17 +74,17 @@
                      <span class="radio-icon">
                        <i class="fa-solid fa-palette"></i>
                      </span>
-                     <span class="radio-label">لجنة الفنون</span>
+                     <span class="radio-label">لجنة الإعلام</span>
                    </span>
                  </label>
 
                  <label id="media" class="radio-wrapper" for="example-66">
-                   <input type="radio" class="radio-input" name="اللجنة المُختارة" id="example-66" value="لجنة الانتاج"/>
+                   <input type="radio" class="radio-input" name="اللجنة المُختارة" id="example-66" value="لجنة التأليف والفعاليات"/>
                    <span class="radio-tile">
                      <span class="radio-icon">
                        <i class="fa-solid fa-clapperboard"></i> <i class="fa-solid fa-pen-nib"></i>
                      </span>
-                     <span class="radio-label">لجنة الانتاج</span>
+                     <span class="radio-label">لجنة التأليف والفعاليات</span>
                    </span>
                  </label>
                </div>
@@ -148,6 +148,7 @@
                       <span class="radio-label">لجنة السفراء</span>
                     </span>
                   </label>
+                  
 
                   <label id="writing" class="radio-wrapper" for="example-33">
                     <input type="radio" class="radio-input" name="اللجنة المُختارة" id="example-33" value="لجنة صناعة المحتوى"/>
@@ -170,12 +171,12 @@
                   </label>
 
                   <label id="art" class="radio-wrapper" for="example-55">
-                    <input type="radio" class="radio-input" name="اللجنة المُختارة" id="example-55" value="لجنة الفنون"/>
+                    <input type="radio" class="radio-input" name="اللجنة المُختارة" id="example-55" value="لجنة الحسيات"/>
                     <span class="radio-tile">
                       <span class="radio-icon">
                         <i class="fa-solid fa-palette"></i>
                       </span>
-                      <span class="radio-label">لجنة الفنون</span>
+                      <span class="radio-label"> لجنة الحسيات</span>
                     </span>
                   </label>
 
@@ -328,9 +329,9 @@
 <script>
   document.getElementById('pepole').addEventListener('click', function(){
     Swal.fire({
-title: "لجنة السفراء",
+title: "لجنة السفراء والبصريات والحسيات",
 titleColor: "#335C81",
-text: "وهي اللجنة المسؤولة عن العلاقات العامة، سواءً كانت العلاقات العامة داخل أسوار الجامعة أو خارجها",
+text: "   لجنة السفراء هي اللجنة المختصه بالعلاقات العامة. لجنة البصريات وهي اللجنة المتخصصة بالتصميم الجرافيكي. لجنة الحسيات وهي اللجنة المختصة بالفنون كالرسم والخط والنحت والنقوش ",
 confirmButtonColor: "#335C81",
 confirmButtonText: "فهمت",
 confirmButtonFont: "b",
@@ -343,9 +344,9 @@ color: "#335C81"
         <script>
           document.getElementById('writing').addEventListener('click', function(){
             Swal.fire({
-  title: "لجنة التأليف",
+  title: "لجنة التوثيق",
   titleColor: "#335C81",
-  text: "وهي اللجنة المسؤولة عن صناعة المحتوى، كـ الكتابة بِكافة أنواعها، ومنبع الأفكار الإبداعية",
+  text: "لجنة التوثيق هي اللجنة المختصة بتصوير وانتاج المحتوى لمواقع التواصل الإجتماعي",
   confirmButtonColor: "#335C81",
   confirmButtonText: "فهمت",
   confirmButtonFont: "b",
@@ -373,9 +374,9 @@ color: "#335C81"
 <script>
   document.getElementById('art').addEventListener('click', function(){
     Swal.fire({
-title: "لجنة الفنون",
+title: "لجنة الإعلام",
 titleColor: "#335C81",
-text: "وهي اللجنة المسؤولة عن أيّ إبداعٍ بصري، كالرسم بِكافة أنواعه، وصُنع الأعمال اليدوية المُتقنه",
+text: "وهي اللجنة المختصة بالتصوير الفوتوغرافي الإحترافي سواءً كانت فديو أو صور",
 confirmButtonColor: "#335C81",
 confirmButtonText: "فهمت",
 confirmButtonFont: "b",
@@ -388,9 +389,9 @@ color: "#335C81"
 <script>
   document.getElementById('media').addEventListener('click', function(){
     Swal.fire({
-title: "لجنة الانتاج",
+title: "لجنة التأليف والفعاليات",
 titleColor: "#335C81",
-text: "وهي اللجنة المعنية بإبراز أدِيب إعلاميًا من خلال المهارات الإبداعية، كالتصوير، التصميم، المُونتاج والإخراج",
+text: "لجنة التأليف هي اللجنة المختصة بصناعة المحتوى الإبداعي كالتابة وغيرها من صناعة المحتوى. لجنة الفعاليات وهي اللجنة المسؤولة عن إقتراح الفعاليات وتنظيمها وإدارتها.",
 confirmButtonColor: "#335C81",
 confirmButtonText: "فهمت",
 confirmButtonFont: "b",
